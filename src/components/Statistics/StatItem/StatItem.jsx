@@ -1,9 +1,9 @@
-import React from 'react';
-import './StatItem.module.css';
+import React from "react";
+import s from "./StatItem.module.css";
 
 const StatItem = ({ label, percentage }) => {
   return (
-    <li className="item">
+    <li className={s.item}>
       <span>{label}</span>
       <span>{percentage}%</span>
     </li>
