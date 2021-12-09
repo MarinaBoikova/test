@@ -1,0 +1,36 @@
+.profile {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.description {
+  background-color: rgb(255, 235, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  background-color: rgb(113, 23, 140);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.stats {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(175, 145, 145);
+  list-style: none;
+  padding: 15px 0;
+}
+.singleStatItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}

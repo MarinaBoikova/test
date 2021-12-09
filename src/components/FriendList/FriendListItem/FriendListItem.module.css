@@ -1,0 +1,28 @@
+.itemFriend {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 15px;
+  height: auto;
+  background-color: rgb(233, 201, 201);
+  border-radius: 5px;
+}
+
+.avatarFriend {
+  width: 40px;
+  height: auto;
+  margin: 0 auto;
+}
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(86, 138, 33);
+}
+
+.statusOff {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(230, 154, 154);
+}

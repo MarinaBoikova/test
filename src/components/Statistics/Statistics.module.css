@@ -1,0 +1,15 @@
+.title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.statList {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
+  background-color: bisque;
+  padding: 0;
+}

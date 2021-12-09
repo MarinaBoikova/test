@@ -1,0 +1,13 @@
+.transactionHistory {
+  text-align: center;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.titles {
+  background-color: rgb(172, 213, 108);
+}
+
+.dataTransaction {
+  background-color: rgb(108, 204, 179);
+}
